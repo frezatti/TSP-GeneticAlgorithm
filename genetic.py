@@ -162,7 +162,7 @@ def genetic_algorithm_tsp(distance_matrix, population_size = 100, num_generation
 
 if __name__ == "__main__":
 
-    tsp_filepath = 'C:/Users/Eliane/Documents/AdrielFaculdade/Prova4/code/berlin52.tsp' 
+    tsp_filepath = './berlin52.tsp' 
 
     city_coords = read_tsp_coords(tsp_filepath) 
 
